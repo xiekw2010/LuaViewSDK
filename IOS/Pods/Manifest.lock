@@ -1,24 +1,15 @@
 PODS:
-  - MJRefresh (2.4.7)
+  - MJRefresh (3.0.7)
   - SDWebImage (3.7.3):
     - SDWebImage/Core (= 3.7.3)
   - SDWebImage/Core (3.7.3)
 
 DEPENDENCIES:
   - MJRefresh
-  - SDWebImage (from `https://github.com/rs/SDWebImage.git`)
-
-EXTERNAL SOURCES:
-  SDWebImage:
-    :git: https://github.com/rs/SDWebImage.git
-
-CHECKOUT OPTIONS:
-  SDWebImage:
-    :commit: 5a5c65d7996c09931a3384e86a8b96ff8f4ac5e7
-    :git: https://github.com/rs/SDWebImage.git
+  - SDWebImage
 
 SPEC CHECKSUMS:
-  MJRefresh: 6ebd06a92fc73b4ccc058e144252ffc11a0381b4
-  SDWebImage: 54a4775686fae6df77068bb465d7e12bcc7388a7
+  MJRefresh: 9192e0313696bda32d88f41f168a849427e74d88
+  SDWebImage: 759e3ea2db01b0db3ac2189173f0e1e9f2e2612b
 
 COCOAPODS: 0.35.0

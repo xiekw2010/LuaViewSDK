@@ -296,6 +296,19 @@
 		84FC64D21BB399A500B6AF86 /* demoO_Timer.lua in Resources */ = {isa = PBXBuildFile; fileRef = 84FC64D11BB399A500B6AF86 /* demoO_Timer.lua */; };
 		84FC64D41BB3A75100B6AF86 /* demoM_Navigation.lua in Resources */ = {isa = PBXBuildFile; fileRef = 84FC64D31BB3A75100B6AF86 /* demoM_Navigation.lua */; };
 		84FC64D61BB3AD4000B6AF86 /* demoL_LoadingIndicator.lua in Resources */ = {isa = PBXBuildFile; fileRef = 84FC64D51BB3AD4000B6AF86 /* demoL_LoadingIndicator.lua */; };
+		BE8E79D31C8E7D92007EAC74 /* JUFLXCSSParser.h in Headers */ = {isa = PBXBuildFile; fileRef = BE8E79C61C8E7D92007EAC74 /* JUFLXCSSParser.h */; };
+		BE8E79D41C8E7D92007EAC74 /* JUFLXCSSParser.m in Sources */ = {isa = PBXBuildFile; fileRef = BE8E79C71C8E7D92007EAC74 /* JUFLXCSSParser.m */; };
+		BE8E79D51C8E7D92007EAC74 /* JUFLXLayoutKit.h in Headers */ = {isa = PBXBuildFile; fileRef = BE8E79C81C8E7D92007EAC74 /* JUFLXLayoutKit.h */; };
+		BE8E79D61C8E7D92007EAC74 /* JUFLXNode.h in Headers */ = {isa = PBXBuildFile; fileRef = BE8E79C91C8E7D92007EAC74 /* JUFLXNode.h */; };
+		BE8E79D71C8E7D92007EAC74 /* JUFLXNode.m in Sources */ = {isa = PBXBuildFile; fileRef = BE8E79CA1C8E7D92007EAC74 /* JUFLXNode.m */; };
+		BE8E79D81C8E7D92007EAC74 /* Layout.c in Sources */ = {isa = PBXBuildFile; fileRef = BE8E79CB1C8E7D92007EAC74 /* Layout.c */; };
+		BE8E79D91C8E7D92007EAC74 /* Layout.h in Headers */ = {isa = PBXBuildFile; fileRef = BE8E79CC1C8E7D92007EAC74 /* Layout.h */; };
+		BE8E79DA1C8E7D92007EAC74 /* JUFLXLinearLayoutView.h in Headers */ = {isa = PBXBuildFile; fileRef = BE8E79CE1C8E7D92007EAC74 /* JUFLXLinearLayoutView.h */; };
+		BE8E79DB1C8E7D92007EAC74 /* JUFLXLinearLayoutView.m in Sources */ = {isa = PBXBuildFile; fileRef = BE8E79CF1C8E7D92007EAC74 /* JUFLXLinearLayoutView.m */; };
+		BE8E79DC1C8E7D92007EAC74 /* UIView+JUFLXNode.h in Headers */ = {isa = PBXBuildFile; fileRef = BE8E79D01C8E7D92007EAC74 /* UIView+JUFLXNode.h */; };
+		BE8E79DD1C8E7D92007EAC74 /* UIView+JUFLXNode.m in Sources */ = {isa = PBXBuildFile; fileRef = BE8E79D11C8E7D92007EAC74 /* UIView+JUFLXNode.m */; };
+		BE8E79DF1C8EA181007EAC74 /* demoA_FlexBox.lua in Resources */ = {isa = PBXBuildFile; fileRef = BE8E79DE1C8EA181007EAC74 /* demoA_FlexBox.lua */; };
+		BE8E79E11C8EAA8C007EAC74 /* demoA_FlexBoxImageA.lua in Resources */ = {isa = PBXBuildFile; fileRef = BE8E79E01C8EAA8C007EAC74 /* demoA_FlexBoxImageA.lua */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -663,6 +676,19 @@
 		91ACCE751AC531160034D9B3 /* LVDebuger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LVDebuger.h; path = lvdebug/LVDebuger.h; sourceTree = "<group>"; };
 		91ACCE761AC531160034D9B3 /* LVDebuger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LVDebuger.m; path = lvdebug/LVDebuger.m; sourceTree = "<group>"; };
 		A71A31E8A92CF6811E803B7A /* libPods-LVSDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LVSDK.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE8E79C61C8E7D92007EAC74 /* JUFLXCSSParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JUFLXCSSParser.h; sourceTree = "<group>"; };
+		BE8E79C71C8E7D92007EAC74 /* JUFLXCSSParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JUFLXCSSParser.m; sourceTree = "<group>"; };
+		BE8E79C81C8E7D92007EAC74 /* JUFLXLayoutKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JUFLXLayoutKit.h; sourceTree = "<group>"; };
+		BE8E79C91C8E7D92007EAC74 /* JUFLXNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JUFLXNode.h; sourceTree = "<group>"; };
+		BE8E79CA1C8E7D92007EAC74 /* JUFLXNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JUFLXNode.m; sourceTree = "<group>"; };
+		BE8E79CB1C8E7D92007EAC74 /* Layout.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Layout.c; sourceTree = "<group>"; };
+		BE8E79CC1C8E7D92007EAC74 /* Layout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Layout.h; sourceTree = "<group>"; };
+		BE8E79CE1C8E7D92007EAC74 /* JUFLXLinearLayoutView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JUFLXLinearLayoutView.h; sourceTree = "<group>"; };
+		BE8E79CF1C8E7D92007EAC74 /* JUFLXLinearLayoutView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JUFLXLinearLayoutView.m; sourceTree = "<group>"; };
+		BE8E79D01C8E7D92007EAC74 /* UIView+JUFLXNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+JUFLXNode.h"; sourceTree = "<group>"; };
+		BE8E79D11C8E7D92007EAC74 /* UIView+JUFLXNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+JUFLXNode.m"; sourceTree = "<group>"; };
+		BE8E79DE1C8EA181007EAC74 /* demoA_FlexBox.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = demoA_FlexBox.lua; sourceTree = "<group>"; };
+		BE8E79E01C8EAA8C007EAC74 /* demoA_FlexBoxImageA.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = demoA_FlexBoxImageA.lua; sourceTree = "<group>"; };
 		C732A52C5E88D13F29F6564E /* libPods-LuaViewSDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LuaViewSDK.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1D7913A587AD4124F9407CC /* libPods-Demo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Demo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9C20F8DECF49DDF8020BE9D /* Pods-Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Demo/Pods-Demo.debug.xcconfig"; sourceTree = "<group>"; };
@@ -805,6 +831,7 @@
 		8418E3A61A5E704100158125 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				BE8E79C41C8E7D92007EAC74 /* Classes */,
 				84D446EF1AF75BB6000A3911 /* PKG */,
 				84B1E37E1AEF24330054B9F1 /* RSA */,
 				91ACCE741AC530CA0034D9B3 /* lvdebug */,
@@ -1021,10 +1048,12 @@
 			children = (
 				3CB5B1611C489CF700E66C91 /* candle */,
 				84799ABD1BAFDDA00070E214 /* demoA_Image.lua */,
+				BE8E79E01C8EAA8C007EAC74 /* demoA_FlexBoxImageA.lua */,
 				8480F0B61BFC1880005DB2AE /* demoA_ImageAnimate.lua */,
 				84799AAF1BAFDDA00070E214 /* demoC_Label.lua */,
 				84BE192C1C2AA4DB00EE9E41 /* demoC2_IconFontLabel.lua */,
 				84799AB81BAFDDA00070E214 /* demoE_Button.lua */,
+				BE8E79DE1C8EA181007EAC74 /* demoA_FlexBox.lua */,
 				8481E0501BD5DADD00FDFEEA /* demoG_RefreshTableView.lua */,
 				84799AC51BAFDDA00070E214 /* demoG_TableView.lua */,
 				84799AB31BAFDDA00070E214 /* demoH2_CollectionView.lua */,
@@ -1337,6 +1366,32 @@
 			name = lvdebug;
 			sourceTree = "<group>";
 		};
+		BE8E79C41C8E7D92007EAC74 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				BE8E79C61C8E7D92007EAC74 /* JUFLXCSSParser.h */,
+				BE8E79C71C8E7D92007EAC74 /* JUFLXCSSParser.m */,
+				BE8E79C81C8E7D92007EAC74 /* JUFLXLayoutKit.h */,
+				BE8E79C91C8E7D92007EAC74 /* JUFLXNode.h */,
+				BE8E79CA1C8E7D92007EAC74 /* JUFLXNode.m */,
+				BE8E79CB1C8E7D92007EAC74 /* Layout.c */,
+				BE8E79CC1C8E7D92007EAC74 /* Layout.h */,
+				BE8E79CD1C8E7D92007EAC74 /* LayoutExtensions */,
+				BE8E79D01C8E7D92007EAC74 /* UIView+JUFLXNode.h */,
+				BE8E79D11C8E7D92007EAC74 /* UIView+JUFLXNode.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		BE8E79CD1C8E7D92007EAC74 /* LayoutExtensions */ = {
+			isa = PBXGroup;
+			children = (
+				BE8E79CE1C8E7D92007EAC74 /* JUFLXLinearLayoutView.h */,
+				BE8E79CF1C8E7D92007EAC74 /* JUFLXLinearLayoutView.m */,
+			);
+			path = LayoutExtensions;
+			sourceTree = "<group>";
+		};
 		CACC8D0F2D9A900CA53CA849 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -1360,6 +1415,7 @@
 				84C1D8361C16C4490058E974 /* LVRSA.h in Headers */,
 				84C1D8371C16C4490058E974 /* LVDebuger.h in Headers */,
 				84C1D8381C16C4490058E974 /* LVDebugConnection.h in Headers */,
+				BE8E79D51C8E7D92007EAC74 /* JUFLXLayoutKit.h in Headers */,
 				84C1D8391C16C4490058E974 /* LVBaseView.h in Headers */,
 				84C1D83A1C16C4490058E974 /* UIScrollView+LuaView.h in Headers */,
 				84C1D83B1C16C44A0058E974 /* UIView+LuaView.h in Headers */,
@@ -1402,6 +1458,7 @@
 				84C1D8601C16C44C0058E974 /* LVHttpResponse.h in Headers */,
 				84C1D8611C16C44C0058E974 /* LVAudioPlayer.h in Headers */,
 				84C1D8621C16C44C0058E974 /* LVDB.h in Headers */,
+				BE8E79D31C8E7D92007EAC74 /* JUFLXCSSParser.h in Headers */,
 				84C1D8631C16C44C0058E974 /* LVDownloader.h in Headers */,
 				84C1D8641C16C44D0058E974 /* LVFile.h in Headers */,
 				84C1D8651C16C44D0058E974 /* LVNavigation.h in Headers */,
@@ -1421,9 +1478,11 @@
 				84C1D7CD1C16C3CD0058E974 /* LuaViewSDK.h in Headers */,
 				84C1D8701C16C44F0058E974 /* lV.h in Headers */,
 				84C1D8711C16C44F0058E974 /* lVapi.h in Headers */,
+				BE8E79D61C8E7D92007EAC74 /* JUFLXNode.h in Headers */,
 				84C1D8721C16C44F0058E974 /* lVauxlib.h in Headers */,
 				84C1D8731C16C44F0058E974 /* lVcode.h in Headers */,
 				84C1D8741C16C44F0058E974 /* lVconf.h in Headers */,
+				BE8E79D91C8E7D92007EAC74 /* Layout.h in Headers */,
 				84C1D8751C16C4500058E974 /* lVdebug.h in Headers */,
 				84C1D8761C16C4500058E974 /* lVdo.h in Headers */,
 				84C1D8771C16C4500058E974 /* lVfunc.h in Headers */,
@@ -1442,6 +1501,8 @@
 				84C1D8841C16C4530058E974 /* lVundump.h in Headers */,
 				84C1D8851C16C4530058E974 /* lVvm.h in Headers */,
 				3C02D1D91C31106E00213386 /* LVAnimator.h in Headers */,
+				BE8E79DC1C8E7D92007EAC74 /* UIView+JUFLXNode.h in Headers */,
+				BE8E79DA1C8E7D92007EAC74 /* JUFLXLinearLayoutView.h in Headers */,
 				84E85C1A1C33B84B007DE3DF /* LVPackage.h in Headers */,
 				84C1D8861C16C4540058E974 /* lVzio.h in Headers */,
 				84C1D7C91C16C3CD0058E974 /* LuaViewSDK-Prefix.pch in Headers */,
@@ -1603,6 +1664,7 @@
 				84799AE01BAFDDA00070E214 /* demoW2_AudioPlayer.lua in Resources */,
 				846A4E7B1C1067BC000B98C5 /* jhs.png in Resources */,
 				84799ACA1BAFDDA00070E214 /* img1.tiff in Resources */,
+				BE8E79DF1C8EA181007EAC74 /* demoA_FlexBox.lua in Resources */,
 				84C1D8A61C17055C0058E974 /* enter10.png in Resources */,
 				847BE9021C0E95C5008776E9 /* demoZ_1212.lua in Resources */,
 				84799AE71BAFDDA00070E214 /* demoP_string.lua in Resources */,
@@ -1632,6 +1694,7 @@
 				840AD5D11A5EB9D30075CB58 /* LaunchScreen.xib in Resources */,
 				8468C9601BDA11BE002D4B1E /* testUIAlert.lua in Resources */,
 				84799ACB1BAFDDA00070E214 /* img10.tiff in Resources */,
+				BE8E79E11C8EAA8C007EAC74 /* demoA_FlexBoxImageA.lua in Resources */,
 				847BE9061C0E97AF008776E9 /* enter.png in Resources */,
 				8468C95C1BDA11BE002D4B1E /* testLuaLang.lua in Resources */,
 				84799ADF1BAFDDA00070E214 /* demoY5_DownloadAndFile.lua in Resources */,
@@ -1773,9 +1836,11 @@
 				84C1D8261C16C4070058E974 /* lVobject.c in Sources */,
 				84C1D8271C16C4070058E974 /* lVopcodes.c in Sources */,
 				84C1D8281C16C4070058E974 /* lVoslib.c in Sources */,
+				BE8E79D81C8E7D92007EAC74 /* Layout.c in Sources */,
 				84C1D8291C16C4070058E974 /* lVparser.c in Sources */,
 				84C1D82A1C16C4070058E974 /* lVprint.c in Sources */,
 				84C1D82B1C16C4070058E974 /* lVstate.c in Sources */,
+				BE8E79DD1C8E7D92007EAC74 /* UIView+JUFLXNode.m in Sources */,
 				84C1D82C1C16C4070058E974 /* lVstring.c in Sources */,
 				84C1D82D1C16C4070058E974 /* lVstrlib.c in Sources */,
 				84C1D82E1C16C4070058E974 /* lVtable.c in Sources */,
@@ -1789,6 +1854,7 @@
 				84C1D7D51C16C3F90058E974 /* LVInputStream.m in Sources */,
 				84C1D7D61C16C3FA0058E974 /* LVRSA.m in Sources */,
 				84C1D7D71C16C3FA0058E974 /* LVDebugLua.m in Sources */,
+				BE8E79D71C8E7D92007EAC74 /* JUFLXNode.m in Sources */,
 				84C1D7D81C16C3FA0058E974 /* LVDebuger.m in Sources */,
 				84C1D7D91C16C3FA0058E974 /* LVDebugConnection.m in Sources */,
 				84C1D7DA1C16C3FA0058E974 /* LVBaseView.m in Sources */,
@@ -1845,11 +1911,13 @@
 				84C1D80C1C16C3FA0058E974 /* LVPointerValueBox.m in Sources */,
 				84C1D80D1C16C3FA0058E974 /* LVUtil.m in Sources */,
 				84C1D80E1C16C3FA0058E974 /* LVTypeConvert.m in Sources */,
+				BE8E79DB1C8E7D92007EAC74 /* JUFLXLinearLayoutView.m in Sources */,
 				84C1D80F1C16C3FA0058E974 /* LVRegisterManager.m in Sources */,
 				84C1D8101C16C3FA0058E974 /* LVHeads.m in Sources */,
 				84C1D8111C16C3FA0058E974 /* LView.m in Sources */,
 				84C1D8131C16C3FA0058E974 /* LVBlock.m in Sources */,
 				84C1D7CF1C16C3CD0058E974 /* LuaViewSDK.m in Sources */,
+				BE8E79D41C8E7D92007EAC74 /* JUFLXCSSParser.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

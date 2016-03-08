@@ -1,10 +1,11 @@
 # Uncomment this line to define a global platform for your project
+source 'git@gitlab.alibaba-inc.com:alipods/specs-mirror.git'
 
 platform :ios, "7.0"
 
 def demo_pods
     pod 'MJRefresh'
-    pod 'SDWebImage',   :git => 'https://github.com/rs/SDWebImage.git'
+    pod 'SDWebImage'
 end
 
 def sdk_pods
@@ -13,6 +14,8 @@ end
 target 'Demo' do
     platform :ios, '7.0'
     demo_pods
+#    pod 'JUFLXLayoutKit', :path => '~/Ali/JUFLXLayoutKit/JUFLXLayoutKit.podspec'
+#    pod 'JUFLXLayoutDebugger', :path => '~/Ali/JUFLXLayoutDebugger/JUFLXLayoutDebugger.podspec', :configurations => ['Debug']
 end
 
 target 'LuaViewSDK' do

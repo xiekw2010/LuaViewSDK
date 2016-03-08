@@ -1,0 +1,37 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "143C8B9BD4757D587B0C3AF45A8EEDB35B34865D",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "143C8B9BD4757D587B0C3AF45A8EEDB35B34865D" : 0,
+    "73FA5C271EB1951C2B263C5DFAFEDA7888AE5AEA" : 0,
+    "566A256146354FD59D2194E064A97A89608725A2" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "1AD02AA3-8C17-428E-9CAA-B2634F7A1BCC",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "143C8B9BD4757D587B0C3AF45A8EEDB35B34865D" : "LuaViewSDK",
+    "73FA5C271EB1951C2B263C5DFAFEDA7888AE5AEA" : "JUFLXLayoutKit\/",
+    "566A256146354FD59D2194E064A97A89608725A2" : "JUFLXLayoutDebugger\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "LuaViewSDK",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "IOS\/LuaViewSDK.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "gitlab.alibaba-inc.com:juhuasuanwireless\/LuaViewSDK.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "143C8B9BD4757D587B0C3AF45A8EEDB35B34865D"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "gitlab.alibaba-inc.com:juhuasuanwireless\/JUFLXLayoutDebugger.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "566A256146354FD59D2194E064A97A89608725A2"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "gitlab.alibaba-inc.com:juhuasuanwireless\/JUFLXLayoutKit.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "73FA5C271EB1951C2B263C5DFAFEDA7888AE5AEA"
+    }
+  ]
+}
